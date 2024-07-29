@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Video Player</h1>
+</header>
+<main>
+    <div class="video-container">
+    <video id="video-player" controls>
+        <source src="video1.mp4" type="video/mp4">
+    </video>
+    <div class="video-controls">
+        <button class="btn" id="play-pause-button">شغل/أستئناف</button>
+        <button class="btn" id="stop-button">توقف الفيديو</button>
+        <button class="btn" id="volume-button">أغلاق الصوت</button>
+    </div>
+    </div>
+    <div class="video-list">
+        <h2>قائمة المشاهدات</h2>
+        <li><a href="#" data-video-src="video1.mp4">مشهد رقم (1)</a></li>
+        <li><a href="#" data-video-src="video2.mp4">(2) مشهد رقم</a></li>
+        <li><a href="#" data-video-src="video3.mp4">مشهد رقم (3)</a></li>
+    </div>
+</main>
+<script src="script13.js"></script>
+</body>
+</html>
